@@ -4,7 +4,7 @@
 const {scrapTable} = require('puppeteer-table-scraper');
 
 scrapTable(url, tableSelector, headless?, resultType?)
-    .then(data => { console.log(data.jsonData, data.headerKeys) } )
+    .then(data => { console.log(data.resultData, data.headerKeys) } )
     .catch(err => { console.log(err) } );
 
 ```

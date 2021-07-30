@@ -1,6 +1,6 @@
 {
   "name": "puppeteer-table-scraper",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Use this package to scrap various type of table.",
   "main": "index.js",
   "scripts": {
