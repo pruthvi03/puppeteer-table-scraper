@@ -1,0 +1,34 @@
+{
+  "name": "puppeteer-table-scraper",
+  "version": "1.0.0",
+  "description": "Use this package to scrap various type of table.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "puppeteer",
+    "puppeteer table scraper",
+    "table data",
+    "html table scrap",
+    "table parser",
+    "table scraper",
+    "scrap",
+    "parse"
+  ],
+  "author": "Pruthvi Hingu",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "puppeteer": "^10.1.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pruthvi03/puppeteer-table-scraper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pruthvi03/puppeteer-table-scraper/issues"
+  },
+  "homepage": "https://github.com/pruthvi03/puppeteer-table-scraper#readme"
+}
