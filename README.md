@@ -8,11 +8,11 @@ scrapTable(url, tableSelector, headless?, resultType?)
     .catch(err => { console.log(err) } );
 
 ```
-Where,
-    url: string = Url of website from which you want to scrap table
-    tableSelector: string = table selector
-    headless: Boolean = true or false, default true
-    resultType: string = 'json', 'csv', default JavaScript array of objects
+Where,<br>
+    url: string = Url of website from which you want to scrap table<br>
+    tableSelector: string = table selector<br>
+    headless: Boolean = true or false, default true<br>
+    resultType: string = 'json', 'csv', default JavaScript array of objects<br>
 
 Result:
 ```
@@ -29,7 +29,7 @@ Result:
     .
 ]
 ```
-You can scrap *simple table* as well as *table in which header contains colspan*.
-Result contains jsonData of table and column headers of table.
+You can scrap *simple table* as well as *table in which header contains colspan*.<br>
+Result contains jsonData of table and column headers of table.<br><br>
 
 You can get data in three various format: Java Script Array, 'json', 'csv'. By default it will give you Java Script Array of Objects.
